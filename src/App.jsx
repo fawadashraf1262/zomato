@@ -6,9 +6,17 @@ import C3 from './content/img/customers/customer-3.jpg'
 import C4 from './content/img/customers/customer-4.jpg'
 import C5 from './content/img/customers/customer-5.jpg'
 import C6 from './content/img/customers/customer-6.jpg'
+import logo from './content/img/omnifood-logo.png'
 const App = () => {
   return (
-    <div>
+    <>
+      <header className="header">
+        <img src={logo} alt="image" className="logo" />
+        <nav className="main-nav">
+          Navigation
+        </nav>
+      </header>
+      <main>
       <section className="section-hero">
         <div className="hero">
           <div className="hero-text-box">
@@ -35,7 +43,8 @@ const App = () => {
           </div>
         </div>
       </section>
-    </div>
+      </main>
+    </>
   )
 }
 

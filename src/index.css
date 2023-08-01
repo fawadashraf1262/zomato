@@ -9,6 +9,9 @@ body{
     font-weight: 400;
     color: #555;
 }
+.logo{
+    height: 2rem;
+}
 .section-hero{
     background-color: #fdf2ef;
 }
