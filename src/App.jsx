@@ -27,7 +27,7 @@ const App = () => {
               <img src={C5} alt="" />
               <img src={C6} alt="" />
             </div>
-            <p className='delivered-description'>250,000+ meals delivered last year!</p>
+            <p className='delivered-description'><span style={{color: "#e67e22"}}>250,000+</span> meals delivered last year!</p>
           </div>
           </div>
           <div className="hero-image-box">
