@@ -9,6 +9,14 @@ body{
     font-weight: 400;
     color: #555;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2ef;
+    height: 3.6rem;
+    padding: 0 70px;
+}
 .logo{
     height: 2rem;
 }
@@ -18,7 +26,7 @@ body{
 .hero{
     max-width: 120rem;
     display: grid;
-    padding: 70px;
+    padding: 10px 70px;
     grid-template-columns: 1fr 1fr;
     /* background-color: rebeccapurple; */
 }
