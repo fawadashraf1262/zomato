@@ -13,7 +13,12 @@ const App = () => {
       <header className="header">
         <img src={logo} alt="image" className="logo" />
         <nav className="main-nav">
-          Navigation
+          <ul className="main-nav-list">
+            <li className='main-nav-link'>Home</li>
+            <li className='main-nav-link'>Order</li>
+            <li className='main-nav-link'>Shop</li>
+            <li className='main-nav-link nav-cta'>Contact</li>
+          </ul>
         </nav>
       </header>
       <main>
@@ -42,6 +47,18 @@ const App = () => {
             <img src={HERO} alt="hero-image" className='hero-img' />
           </div>
         </div>
+      </section>
+      <section className="section-how grid grid--2-cols">
+        <div>Test 1</div>
+        <div>Test 2</div>
+        <div>Test 3</div>
+        <div>Test 4</div>
+      </section>
+      <section className="section-how grid grid--3-cols">
+        <div>Test 1</div>
+        <div>Test 2</div>
+        <div>Test 3</div>
+        <div>Test 4</div>
       </section>
       </main>
     </>

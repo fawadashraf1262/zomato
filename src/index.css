@@ -16,7 +16,38 @@ body{
     background-color: #fdf2ef;
     height: 3.6rem;
     padding: 0 70px;
+    /* border: 2px solid black; */
+    padding-top: 20px;
 }
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.main-nav-link{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.main-nav-link:hover,
+.main-nav-link:active{
+    Color: #e67e22;
+}
+
+.nav-cta{
+    padding: 1rem 1.2rem;
+    border-radius: 6px;
+    background-color: #e67e22;
+    color: #000;
+}
+.nav-cta:hover{
+    color: #000;
+}
+
 .logo{
     height: 2rem;
 }
@@ -96,4 +127,46 @@ body{
     font-size: 0.9rem;
     font-weight: 600;
     margin-left: 1.4rem;
+}
+
+.section-how{
+    padding: 9.6rem 0;
+    background-color: orangered;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section-how div{
+    padding: 100px;
+    font-size: 50px;
+}
+
+.section-how div:nth-child(1){
+    background-color: aqua;
+}
+.section-how div:nth-child(2){
+    background-color: blue;
+}
+.section-how div:nth-child(3){
+    background-color: purple;
+}
+.section-how div:nth-child(4){
+    background-color: maroon;
 }
