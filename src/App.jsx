@@ -48,11 +48,14 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section className="section-how grid grid--2-cols">
+      <section className="section-how">
+        <div className=' container grid grid--2-cols'>
         <div>Test 1</div>
         <div>Test 2</div>
         <div>Test 3</div>
         <div>Test 4</div>
+        </div>
+        
       </section>
       <section className="section-how grid grid--3-cols">
         <div>Test 1</div>
